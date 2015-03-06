@@ -1,6 +1,6 @@
 {
   "name": "tweet-stream",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Create a readable object stream of tweets from the Twitter REST API via Twit",
   "main": "index.js",
   "author": {
