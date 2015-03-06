@@ -2,7 +2,7 @@
   "name": "tweet-stream",
   "version": "1.0.0",
   "description": "Create a readable object stream of tweets from the Twitter REST API via Twit",
-  "main": "./dist/TweetStream.js",
+  "main": "index.js",
   "author": {
     "name": "Brandon Valosek",
     "email": "bvalosek@gmail.com",

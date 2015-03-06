@@ -46,6 +46,16 @@ var stream = new TweetStream(twit, 'statuses/user_timeline', {
 stream.pipe(through(data => console.log(data)));
 ```
 
+### In ES5-only Environments
+
+If not using in an environment that supports ES6+, an ES5 build is available:
+
+```
+var TweetStream = require('tweet-stream/es5');
+...
+
+```
+
 ## Testing
 
 Maybe someday.
