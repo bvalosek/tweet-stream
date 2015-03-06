@@ -15,7 +15,9 @@ The point of this module is to provide a readable `Stream` instance that spits
 out tweet objects directly from the REST API, that traverses the entire result
 via paging with the `max_id` parameter.
 
-This can be used to backfill tweets for a specific user or search term.
+This can be used to backfill tweets for a specific user or search term; it is
+NOT related to the
+[Twitter streaming API](https://dev.twitter.com/streaming/overview).
 
 Note that this will make requests as fast as possible, so watch out for rate
 limiting.
@@ -52,8 +54,8 @@ If not using in an environment that supports ES6+, an ES5 build is available:
 
 ```
 var TweetStream = require('tweet-stream/es5');
-...
 
+...
 ```
 
 ## Testing
